@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'HouseMD'; /* Name the font (you can choose any name) */
-  src: url('/fonts/housem_d_.woff') format('woff'); /* Path to the font file */
+  src: url('/fonts/GeistMonoVF.woff') format('woff'); /* Path to the font file */
 }
 
 body {
