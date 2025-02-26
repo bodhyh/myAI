@@ -153,7 +153,7 @@ export class ResponseModule {
         queueIndicator({
           controller,
           status: "Super annoying request.... now give me some time to figure out what my answer will look like (so that even you can understand)",
-          icon: "thinking and is visibly annoyed,
+          icon: "thinking and is visibly annoyed",
         });
         try {
           const hypotheticalData: string = await generateHypotheticalData(
