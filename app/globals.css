@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: 'HouseMD'; /* Name the font (you can choose any name) */
   src: url('../fonts/housem_d_.woff') format('woff'); /* Path to the font file */
-  font-weight: normal; /* Specify the font weight if needed */
-  font-style: normal; /* Specify the font style if needed */
-};
+}
 
 body {
   font-family: 'HouseMD', Arial, Helvetica, sans-serif;
