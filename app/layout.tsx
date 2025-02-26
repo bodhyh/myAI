@@ -6,13 +6,13 @@ import { ErrorWrapper } from "./parts/error/error-wrapper";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 const geistSans = localFont({
-  src: "./fonts/housem_d_.woff",
+  src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 
 const geistMono = localFont({
-  src: "./fonts/housem_d_.woff",
+  src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
