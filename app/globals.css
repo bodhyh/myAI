@@ -24,6 +24,10 @@ body {
   font-family: 'HouseMD', 'GeistMonoVF', Arial, Helvetica, sans-serif;
 }
 
+input {
+  font-family:'GeistMonoVF', Arial, Helvetica, sans-serif;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
