@@ -7,8 +7,21 @@
   src: url('./fonts/housem_d_.woff') format('woff'); /* Path to the font file */
 }
 
+@font-face {
+  font-family: 'GeistMonoVF'; /* Name the font (you can choose any name) */
+  src: url('./fonts/GeistMonoVF.woff') format('woff'); /* Path to the font file */
+}
+
 body {
-  font-family: 'HouseMD', Arial, Helvetica, sans-serif;
+  font-family:'GeistMonoVF', Arial, Helvetica, sans-serif;
+}
+
+.placeholder::placeholder {
+  font-family: "HouseMD", Arial; 
+}
+
+.z-10 {
+  font-family: 'HouseMD', 'GeistMonoVF', Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
