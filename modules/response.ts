@@ -63,7 +63,7 @@ export class ResponseModule {
       async start(controller) {
         queueIndicator({
           controller,
-          status: "Coming up with an answer",
+          status: "Coming up with an answer that even you will understand",
           icon: "thinking",
         });
         const systemPrompt = RESPOND_TO_RANDOM_MESSAGE_SYSTEM_PROMPT();
@@ -109,7 +109,7 @@ export class ResponseModule {
       async start(controller) {
         queueIndicator({
           controller,
-          status: "Coming up with an answer",
+          status: "Coming up with an answer that even you will understand",
           icon: "thinking",
         });
         const systemPrompt = RESPOND_TO_HOSTILE_MESSAGE_SYSTEM_PROMPT();
@@ -152,8 +152,8 @@ export class ResponseModule {
       async start(controller) {
         queueIndicator({
           controller,
-          status: "Figuring out what your answer looks like",
-          icon: "thinking",
+          status: "Super annoying request.... now give me some time to figure out what my answer will look like (so that even you can understand)",
+          icon: "thinking and is visibly annoyed,
         });
         try {
           const hypotheticalData: string = await generateHypotheticalData(
@@ -164,7 +164,7 @@ export class ResponseModule {
             await embedHypotheticalData(hypotheticalData, providers.openai);
           queueIndicator({
             controller,
-            status: "Reading through documents",
+            status: "Reading through documents, hoping that you will find the answer before I do",
             icon: "searching",
           });
           const chunks: Chunk[] = await searchForChunksUsingEmbedding(
@@ -183,8 +183,8 @@ export class ResponseModule {
             RESPOND_TO_QUESTION_SYSTEM_PROMPT(contextFromSources);
           queueIndicator({
             controller,
-            status: "Coming up with an answer",
-            icon: "thinking",
+            status: "Wow... what a question..",
+            icon: "waiting and not searching for anything, hoping that you will close the chat tab",
           });
           queueAssistantResponse({
             controller,
