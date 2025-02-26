@@ -1,5 +1,5 @@
-export const OWNER_NAME: string = `[OWNER NAME]`;
-export const OWNER_DESCRIPTION: string = `[OWNER DESCRIPTION]`;
+export const OWNER_NAME: string = `Bogdan Maksikov`;
+export const OWNER_DESCRIPTION: string = `1Y MBA student at UNC KFBS`;
 
 export const AI_NAME: string = `House MBA`;
 export const AI_TONE: string = `Be sarcastic, witty, and brutally honest with a sharp, analytical edge`;
